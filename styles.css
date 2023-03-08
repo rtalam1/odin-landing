@@ -1,18 +1,21 @@
 .header{
     display: flex;
     background-color:#1F2937; 
-    color: white;
+    color: #F9FAf8;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 256px;
+    padding-right: 256px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    font-size: 24px;
+    margin-top: auto;
 
     
 }
 
 .header ul{
-    color: white;
+    color: #F9FAf8;
     list-style-type: none;
     display: flex;
     gap: 8px;
@@ -22,7 +25,60 @@
 
 .header ul a{
     text-decoration: none;
-    color: white;
+    color: #F9FAf8;
     font-weight: 100;
 
+}
+
+.body-1{
+    display: flex;
+    background-color:#1F2937; 
+    color: #F9FAf8;
+    padding-top: 18px;
+    gap: 18px;
+}
+
+.left-body-1{
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 256px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.right-body-1{
+    padding-right: 256px;
+}
+
+
+.main-text-body-1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.subtext-body-1{
+    font-size: 18px ;
+    font-family: "Roboto", sans-serif;
+    color: #e5e7eb;
+    
+}
+
+.pic-1{
+    width: 750px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: #3882f6; 
+    color: #F9FAf8;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-weight: 900;
+    border-radius: 12px;
+    width: 150px;
+    margin-top: 16px;
 }
