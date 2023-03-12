@@ -91,18 +91,53 @@
     font-weight: extra-bold;
     color: #1F2937;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
+
+.pics-info{
+    display: flex;
+    gap: 18px;
+}
+
 .mark{
     display: flex;
     flex-direction: column;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     color: #1F2937;
+    gap: 8px;
 
 }
 
+.landon{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    gap: 8px;
+}
 
-.mark-pic{
+.miles{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    gap: 8px;
+}
+
+.zach{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    gap: 8px;
+}
+
+
+.mark-pic, .landon-pic, .zach-pic, .miles-pic{
     width: 350px;
     height: 350px;
 }
