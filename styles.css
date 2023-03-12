@@ -82,3 +82,27 @@
     width: 150px;
     margin-top: 16px;
 }
+.body-2{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-top: 8px;
+}
+.mark{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+
+}
+
+
+.mark-pic{
+    width: 350px;
+    height: 350px;
+}
