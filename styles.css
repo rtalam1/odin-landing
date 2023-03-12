@@ -10,6 +10,7 @@
     font-weight: 900;
     font-size: 24px;
     margin-top: auto;
+    padding: auto;
 
     
 }
@@ -90,13 +91,15 @@
     align-items: center;
     font-weight: extra-bold;
     color: #1F2937;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: auto;
 }
 
 .pics-info{
     display: flex;
     gap: 18px;
+    margin-bottom: 32px;
 }
 
 .mark{
@@ -140,4 +143,42 @@
 .mark-pic, .landon-pic, .zach-pic, .miles-pic{
     width: 350px;
     height: 350px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    margin-top: 8px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-2{
+    background-color: #3882f6; 
+    color: #F9FAf8;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-weight: 900;
+    border-radius: 12px;
+    width: 150px;
+    margin-top: 16px;
+}
+.call-text{
+    display: flex;
+    flex-direction: column;
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: #F9FAf8;
+    font-family: "Roboto", sans-serif;
+    padding: 32px;
+    margin: 64px; 
 }
